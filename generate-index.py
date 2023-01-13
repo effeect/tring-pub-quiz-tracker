@@ -13,7 +13,6 @@ template = """
 """
 
 template = Template(template)
-
 output = template.render(title="My Title", headline="My Headline", content="My Content")
 print(output)
 
