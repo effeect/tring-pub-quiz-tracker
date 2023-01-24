@@ -35,39 +35,37 @@
   <div class="wave"></div>
   <div class="wave"></div>
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <main role="main" class="inner cover">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-    <div class="container-fluid">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-mdb-toggle="collapse"
-        data-mdb-target="#navbarExample01"
-        aria-controls="navbarExample01"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="" id="navbarExample01">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Github</a>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Tring Pub Quiz Tracker</a>
 
-<main role="main" class="inner cover">
-<hr>
-<hr>
+    <!-- Toggle button -->
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/effeect">Github</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/OliverDimes">Twitter</a>
+        </li>
+        <!-- Navbar dropdown -->
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+
   <p class="h1 text-white">Position Average : TBA</p>
   {{ table }}
 </main>
