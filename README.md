@@ -1,2 +1,7 @@
-# tring-pub-quiz-tracker
-A website generator for a record of my groups pub quiz activities
+# Tring Pub Quiz Tracker
+This is a little project website that I made for fun, effectively this is a Python generation script that takes data from a public google sheet and converts it into a simple website. Not much else to it.
+
+# Online Spreadsheets
+- Pub Quiz 1 : https://docs.google.com/spreadsheets/d/e/2PACX-1vSQTlUMZ3zA543Gs4fHJvPvEO4Ld2xV_bQJyH5qmZ6X5melHeWa5nugeZXWA23acj0u5phl1E7OuTqL/pub?output=csv
+- Pub Quiz 2 : https://docs.google.com/spreadsheets/d/e/2PACX-1vRw2kPIQF9YSrR6VJWuSwn95y9eP2oXUIrXZg7uvt8sE4ALLRhBAXTs2Pnhd5XnULZSRmWDJlIGjTOP/pub?output=csv
+
