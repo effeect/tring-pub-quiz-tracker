@@ -1,81 +1,30 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="A Pub Quiz Tracker for some Tring blokes">
+  <meta name="description" content="Gives the time/session details for the next race and previous races">
   <meta name="author" content="Oliver Dimes">
   <title>Tring Pub Quiz Tracker</title>
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/cover/">
-
   <!-- Bootstrap core CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link href="main.css" rel="stylesheet">
-  <link href="">
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
   <!-- Custom styles for this template -->
-  <link href="cover.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
 </head>
 <body class="text-center" data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed="">
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <main role="main" class="inner cover">
-  <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
-  <!-- Container wrapper -->
-  <div class="container-fluid">
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">Tring Pub Quiz Tracker</a>
+<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Tring Pub Quiz Tracker</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="https://github.com/effeect">Github</a>
+          </nav>
+        </div>
+      </header>
 
-    <!-- Toggle button -->
-
-    <!-- Collapsible wrapper -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!-- Left links -->
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/effeect">Github</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://twitter.com/OliverDimes">Twitter</a>
-        </li>
-        <!-- Navbar dropdown -->
-      </ul>
-      <!-- Left links -->
-    </div>
-    <!-- Collapsible wrapper -->
-  </div>
-  <!-- Container wrapper -->
-</nav>
-<!-- Navbar -->
-<p class="h1 text-white">Position Average : TBA</p>
-<ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Robin Hood</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Kings Arms</button>
-  </li>
-
-</ul>
-<div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><table border="1" class="dataframe table table-bordered table-dark" id="myTable">
+      <main role="main" class="inner cover">
+          
+        <table border="1" class="dataframe table table-bordered table-dark" id="myTable">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -88,12 +37,44 @@
   </thead>
   <tbody>
     <tr>
+      <th>8</th>
+      <td>21/03/2023</td>
+      <td>1st</td>
+      <td>89</td>
+      <td>Phil was here</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>08/03/2023</td>
+      <td>6th</td>
+      <td>62</td>
+      <td>seb wiped out on the first question lol</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>01/03/2023</td>
+      <td>1st</td>
+      <td>75</td>
+      <td>Ollie is a little bitch</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>22/02/2023</td>
+      <td>8th</td>
+      <td>61</td>
+      <td>Patrick wiped us out</td>
+      <td>12.0</td>
+    </tr>
+    <tr>
       <th>4</th>
       <td>15/02/2023</td>
       <td>11th</td>
       <td>57</td>
       <td>Oliver sucks</td>
-      <td>12</td>
+      <td>12.0</td>
     </tr>
     <tr>
       <th>3</th>
@@ -101,7 +82,7 @@
       <td>3rd</td>
       <td>80</td>
       <td>we didn't wipe out</td>
-      <td>12</td>
+      <td>12.0</td>
     </tr>
     <tr>
       <th>2</th>
@@ -109,7 +90,7 @@
       <td>7th</td>
       <td>75</td>
       <td>we did alright</td>
-      <td>13</td>
+      <td>13.0</td>
     </tr>
     <tr>
       <th>1</th>
@@ -117,7 +98,7 @@
       <td>6th</td>
       <td>75</td>
       <td>we didn't wipe out</td>
-      <td>12</td>
+      <td>12.0</td>
     </tr>
     <tr>
       <th>0</th>
@@ -125,83 +106,17 @@
       <td>6th</td>
       <td>78</td>
       <td>Wiped out (chester)</td>
-      <td>12</td>
+      <td>12.0</td>
     </tr>
   </tbody>
-</table></div>
-  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><table border="1" class="dataframe table table-bordered table-dark" id="myTable">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Date</th>
-      <th>Position</th>
-      <th>Points</th>
-      <th>Notes</th>
-      <th>teams</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2</th>
-      <td>13/02/2023</td>
-      <td>9th</td>
-      <td>47</td>
-      <td>c missing</td>
-      <td>TBA</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>06/02/2023</td>
-      <td>12th</td>
-      <td>47</td>
-      <td>TBA</td>
-      <td>TBA</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>30/01/2023</td>
-      <td>8th</td>
-      <td>26</td>
-      <td>TBA</td>
-      <td>TBA</td>
-    </tr>
-  </tbody>
-</table></div>
-</div>
+</table>
 
-</main>
+      </main>
 
-<footer class="mastfoot mt-auto">
-  <div class="inner">
-    <p>Template by <a href="https://twitter.com/mdo">@mdo</a>. Powered by Github Pages, CSS by <a href="https://codepen.io/baarbaracrr/pen/KKovmGb">Barbara Rodriguez</a></p>
-  </div>
-</footer>
-</div>
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Hosted on Github Pages, Cover template based on the example on <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        </div>
+      </footer>
+    </div>
 </body>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  <script type="application/javascript">
-      function tableSearch() {
-          let input, filter, table, tr, td, txtValue;
-
-          //Intialising Variables
-          input = document.getElementById("myInput");
-          filter = input.value.toUpperCase();
-          table = document.getElementById("myTable");
-          tr = table.getElementsByTagName("tr");
-
-          for (let i = 0; i < tr.length; i++) {
-              td = tr[i].getElementsByTagName("td")[1];
-              if (td) {
-                  txtValue = td.textContent || td.innerText;
-                  if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                      tr[i].style.display = "";
-                  } else {
-                      tr[i].style.display = "none";
-                  }
-              }
-          }
-
-      }
-  </script>
-</html>
